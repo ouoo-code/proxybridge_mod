@@ -1,5 +1,5 @@
 # proxybridge_mod
-自用，源码来自proxybridge官方 https://github.com/InterceptSuite/ProxyBridg 
+自用，源码来自proxybridge官方 https://github.com/InterceptSuite/ProxyBridge 
 
 基于ProxyBridge-Setup-3.2.0版本。  
 
