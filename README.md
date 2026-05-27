@@ -25,4 +25,8 @@ Additions:
 3.Traffic display in the system tray area.  
 4.Added "View Connection Logs" feature.  
 
- 
+ ![查看连接日志](viewconlog.png) 
+ ![演示](trayicon.png) 
+ ![演示](matchrulelog.png) 
+ ![演示](setwindow.png) 
+ ![演示](about.png) 
