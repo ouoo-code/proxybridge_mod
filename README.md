@@ -2,6 +2,7 @@
 自用，源码来自proxybridge官方 https://github.com/InterceptSuite/ProxyBridge 
 
 基于ProxyBridge-Setup-3.2.0版本。  3.2.0 最后的mod在 https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2 下载。  
+  
 4.0版本我也mod了下，修正了几个bug，修改了一些界面和功能出来。定期更新。  
 
 ---以下为4.0功能更新:---  
@@ -9,7 +10,11 @@
 2. 把原3.2.0增加的流量图标功能、流量统计、查看连接功能、只查看匹配规则的日志功能都移植过来了。  
 3. 在代理页面增加一个替换代理功能：把规则中所的proxy类型的规则全部替换为选中的代理。  
 4. 代理服务器设置界面修改，原来的有点太难看了。沿用3.2.0原mod后的界面。  
-
+---4.0 mod--
+1.Fixed the issue where deleting a proxy caused rule references to become misaligned. This bug has been submitted to the official tracker.  
+2.Ported over the traffic icon feature, traffic statistics, connection viewer, and the "show only matched rule logs" feature that were added in the original 3.2.0.  
+3.Added a "Replace Proxy" function on the Proxy page: replaces all proxy-type rules in the ruleset with the selected proxy.  
+4.Modified the proxy server settings interface—the original one was a bit too ugly. Continued using the interface from the post-mod 3.2.0 version.  
   
 ----以下为3.2.0功能更新：---  
 
