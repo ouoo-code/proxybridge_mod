@@ -10,7 +10,8 @@
 2. 把原3.2.0增加的流量图标功能、流量统计、查看连接功能、只查看匹配规则的日志功能都移植过来了。  
 3. 在代理页面增加一个替换代理功能：把规则中所的proxy类型的规则全部替换为选中的代理。  
 4. 代理服务器设置界面修改，原来的有点太难看了。沿用3.2.0原mod后的界面。  
-5. 允许字体，字体大小设置。  
+5. 允许字体，字体大小设置。
+6. 代理流量统计。
   
 ---4.0 mod--  
 1. Fixed the issue where deleting a proxy caused rule references to become misaligned. This bug has been submitted to the official tracker.  
@@ -18,6 +19,8 @@
 3. Added a "Replace Proxy" function on the Proxy page: replaces all proxy-type rules in the ruleset with the selected proxy.  
 4. Modified the proxy server settings interface — the original one was not good. Kept using the interface from the modded 3.2.0 version.
 5. Supports font and font size settings.
+6. Proxy traffic statistics function
+   
   
 ----以下为3.2.0功能更新：---  
 
