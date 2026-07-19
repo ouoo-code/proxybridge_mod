@@ -17,7 +17,7 @@
 2. Ported over the traffic icon feature, traffic statistics, connection viewer, and "show only matched rule logs" feature that were added in the original 3.2.0.  
 3. Added a "Replace Proxy" function on the Proxy page: replaces all proxy-type rules in the ruleset with the selected proxy.  
 4. Modified the proxy server settings interface — the original one was not good. Kept using the interface from the modded 3.2.0 version.
-5. Font,Size set.
+5. Supports font and font size settings.
   
 ----以下为3.2.0功能更新：---  
 
