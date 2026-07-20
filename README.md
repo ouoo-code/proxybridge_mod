@@ -12,6 +12,14 @@
 4. 代理服务器设置界面修改，原来的有点太难看了。沿用3.2.0原mod后的界面。  
 5. 允许字体，字体大小设置。
 6. 代理流量统计。
+
+###修复源码缺陷：连接映射清理和端口决策缓存没有同步失效  
+1.stale 清理连接时同步 port_clear(src_port) // 只free(to_free)，没有 port_clear(src_port)  
+2.remove_connection也同步清端口缓存  
+3.TCP 映射保留时间从 2 分钟提高到 30 分钟  
+4.UDP 仍保留 2 分钟  
+5.TCP/UDP 连接记录加区分，避免误清理策略混用  
+
   
 ---4.0 mod--  
 1. Fixed the issue where deleting a proxy caused rule references to become misaligned. This bug has been submitted to the official tracker.  
