@@ -1,11 +1,11 @@
 # proxybridge mod
 自用，源码来自proxybridge官方 https://github.com/InterceptSuite/ProxyBridge 
 
-基于ProxyBridge-Setup-3.2.0版本。  [v3.2.0 mod last version](https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2)。  
+基于ProxyBridge-Setup-3.2.0版本  [v3.2.0 mod last version](https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2)。  
   
 基于ProxyBridge 4.0版本我也mod了下，修正了几个bug，修改了一些界面和功能出来。定期更新。  
 
---以下为4.0功能更新:--  
+**以下为4.0功能更新:**
 1. 修复代理删除，规则引用错乱的问题。已提交至官方bug。  
 2. 把原3.2.0增加的流量图标功能、流量统计、查看连接功能、只查看匹配规则的日志功能都移植过来了。  
 3. 在代理页面增加一个替换代理功能：把规则中所的proxy类型的规则全部替换为选中的代理。  
@@ -21,7 +21,7 @@
 5.TCP/UDP 连接记录加区分，避免误清理策略混用  
 
   
---4.0 mod--  
+**--4.0 mod--**
 1. Fixed the issue where deleting a proxy caused rule references to become misaligned. This bug has been submitted to the official tracker.  
 2. Ported over the traffic icon feature, traffic statistics, connection viewer, and "show only matched rule logs" feature that were added in the original 3.2.0.  
 3. Added a "Replace Proxy" function on the Proxy page: replaces all proxy-type rules in the ruleset with the selected proxy.  
@@ -36,7 +36,7 @@
 4.UDP remains at 2 minutes  
 5.Add distinction for TCP/UDP connection records to avoid mixed use of cleanup policies by mistake  
 
-4.0 GUI mod:
+**4.0 GUI mod:**
 ![traffic status](trafstatus.png)
 ![con log](conlog.png)
 ![font & log](font-log.png)
@@ -46,7 +46,7 @@
 ![rules gui](rules.png)
 
 
---以下为3.2.0功能更新：--  
+**--以下为3.2.0功能更新：--**  
 
 修复：  
 1.规则禁用后，自动启动，某些场景禁用无效。  
@@ -70,7 +70,7 @@ Additions:
 3.Traffic display in the system tray area.  
 4.Added "View Connection Logs" feature.  
 
-3.2.0 GUI mod:
+**3.2.0 GUI mod:**
 
  ![查看连接日志](viewconlog.png) 
  ![演示](trayicon.png)图标流量显示。 
