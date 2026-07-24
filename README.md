@@ -28,8 +28,17 @@
 4. Modified the proxy server settings interface — the original one was not good. Kept using the interface from the modded 3.2.0 version.
 5. Supports font and font size settings.
 6. Proxy traffic statistics function
-   
-  
+
+4.0 GUI mod:
+!(trafstatus.png)
+!(conlog.png)
+!(font-log.png)
+!(proxyset.png)
+!(proxytraf.png)
+!(replace.png)
+!(rules.png)
+
+
 ----以下为3.2.0功能更新：---  
 
 修复：  
@@ -53,6 +62,8 @@ Additions:
 2.Added rule matching logs.  
 3.Traffic display in the system tray area.  
 4.Added "View Connection Logs" feature.  
+
+3.2.0 GUI mod:
 
  ![查看连接日志](viewconlog.png) 
  ![演示](trayicon.png)图标流量显示。 
