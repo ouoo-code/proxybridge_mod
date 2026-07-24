@@ -5,7 +5,7 @@
   
 4.0版本我也mod了下，修正了几个bug，修改了一些界面和功能出来。定期更新。  
 
----以下为4.0功能更新:---  
+--以下为4.0功能更新:--  
 1. 修复代理删除，规则引用错乱的问题。已提交至官方bug。  
 2. 把原3.2.0增加的流量图标功能、流量统计、查看连接功能、只查看匹配规则的日志功能都移植过来了。  
 3. 在代理页面增加一个替换代理功能：把规则中所的proxy类型的规则全部替换为选中的代理。  
@@ -13,7 +13,7 @@
 5. 允许字体，字体大小设置。
 6. 代理流量统计。
 
-###修复源码缺陷：连接映射清理和端口决策缓存没有同步失效  
+#修复源码缺陷：连接映射清理和端口决策缓存没有同步失效  
 1.stale 清理连接时同步 port_clear(src_port) // 只free(to_free)，没有 port_clear(src_port)  
 2.remove_connection也同步清端口缓存  
 3.TCP 映射保留时间从 2 分钟提高到 30 分钟  
@@ -21,13 +21,20 @@
 5.TCP/UDP 连接记录加区分，避免误清理策略混用  
 
   
----4.0 mod--  
+--4.0 mod--  
 1. Fixed the issue where deleting a proxy caused rule references to become misaligned. This bug has been submitted to the official tracker.  
 2. Ported over the traffic icon feature, traffic statistics, connection viewer, and "show only matched rule logs" feature that were added in the original 3.2.0.  
 3. Added a "Replace Proxy" function on the Proxy page: replaces all proxy-type rules in the ruleset with the selected proxy.  
 4. Modified the proxy server settings interface — the original one was not good. Kept using the interface from the modded 3.2.0 version.
 5. Supports font and font size settings.
 6. Proxy traffic statistics function
+
+#Fix source code defects: connection mapping cleanup and port decision cache are not invalidated synchronously  
+1.During stale cleanup, synchronize port_clear(src_port) when cleaning connections // Currently only frees to_free, without calling port_clear(src_port)  
+2.Also synchronously clear the port cache in remove_connection  
+3.Increase TCP mapping retention time from 2 minutes to 30 minutes  
+4.UDP remains at 2 minutes  
+5.Add distinction for TCP/UDP connection records to avoid mixed use of cleanup policies by mistake  
 
 4.0 GUI mod:
 ![traffic status](trafstatus.png)
@@ -39,7 +46,7 @@
 ![rules gui](rules.png)
 
 
-----以下为3.2.0功能更新：---  
+--以下为3.2.0功能更新：--  
 
 修复：  
 1.规则禁用后，自动启动，某些场景禁用无效。  
