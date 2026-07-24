@@ -1,7 +1,7 @@
 # proxybridge mod
 自用，源码来自proxybridge官方 https://github.com/InterceptSuite/ProxyBridge 
 
-基于ProxyBridge-Setup-3.2.0版本。  3.2.0 最后的mod在 https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2 下载。  
+基于ProxyBridge-Setup-3.2.0版本。  [v3.2.0 mod last](https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2)。  
   
 4.0版本我也mod了下，修正了几个bug，修改了一些界面和功能出来。定期更新。  
 
