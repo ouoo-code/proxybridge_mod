@@ -1,9 +1,9 @@
 # proxybridge mod
 自用，源码来自proxybridge官方 https://github.com/InterceptSuite/ProxyBridge 
 
-基于ProxyBridge-Setup-3.2.0版本。  [v3.2.0 mod last](https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2)。  
+基于ProxyBridge-Setup-3.2.0版本。  [v3.2.0 mod last version](https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2)。  
   
-4.0版本我也mod了下，修正了几个bug，修改了一些界面和功能出来。定期更新。  
+基于ProxyBridge 4.0版本我也mod了下，修正了几个bug，修改了一些界面和功能出来。定期更新。  
 
 --以下为4.0功能更新:--  
 1. 修复代理删除，规则引用错乱的问题。已提交至官方bug。  
