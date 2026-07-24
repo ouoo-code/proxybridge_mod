@@ -30,13 +30,13 @@
 6. Proxy traffic statistics function
 
 4.0 GUI mod:
-!(trafstatus.png)
-!(conlog.png)
-!(font-log.png)
-!(proxyset.png)
-!(proxytraf.png)
-!(replace.png)
-!(rules.png)
+![traffic status](trafstatus.png)
+![con log](conlog.png)
+![font & log](font-log.png)
+![proxy setting](proxyset.png)
+![proxy traffic](proxytraf.png)
+![proxy replace](replace.png)
+![rules gui](rules.png)
 
 
 ----以下为3.2.0功能更新：---  
