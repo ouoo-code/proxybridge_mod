@@ -1,4 +1,4 @@
-# ProxyBridge Mod
+# ProxyBridge Mod by https://soft.54bb.com
 
 > 基于官方 [ProxyBridge](https://github.com/InterceptSuite/ProxyBridge) 的自定义修改版本（包含 3.2.0 和 4.0Mod）。  
 > *A modified version based on official ProxyBridge, offering enhanced GUI, subprocess proxying, loopguard, and bug fixes.*
