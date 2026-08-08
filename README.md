@@ -6,6 +6,16 @@
 基于ProxyBridge 4.0版本我也mod了下，修正了几个bug，修改了一些界面和功能出来。定期更新。  
 
 **以下为4.0功能更新:**
+#20260808
+mod v4 重大功能升级：  
+1.实现代理子进程，规则内允许配置为代理此规则的程序底下的所有子进程，优先本规则或匹配子进程规则（如没设置则回落到本规则）  
+2.实现代理回环保护，主要是因为实现子进程代理后，有较大概率出现各种程序进程相互调用的情况，特别是代理服务又被代理到自己的情况。当出现保护时日志会显示[LOOP GUARD]。  
+3.增加“允许代理链”开关，只有用户明确需要多级代理时才关闭防回环。程序默认启用“代理端点防回环”（即关闭允许代理链），发现目标等于代理端点时自动直连。  
+4.日志和规则上添加符号，闪电图标表示为子进程代理，双箭头图标为父进程代理。  
+5.测试版本，不知道稳定性怎么样，欢迎反馈。  
+  
+  
+#20260710
 1. 修复代理删除，规则引用错乱的问题。已提交至官方bug。  
 2. 把原3.2.0增加的流量图标功能、流量统计、查看连接功能、只查看匹配规则的日志功能都移植过来了。  
 3. 在代理页面增加一个替换代理功能：把规则中所的proxy类型的规则全部替换为选中的代理。  
@@ -22,6 +32,26 @@
 
   
 **--4.0 mod--**
+
+Here is the English translation:
+
+---20260808
+
+**Mod v4 Major Feature Upgrade:**
+
+1. **Implemented proxy subprocess support**: Rules can now be configured to proxy all child processes under the program matching the rule. Child process rules take priority, or fall back to the parent rule if no child process rule is set.
+
+2. **Implemented proxy loopback protection**: This is mainly necessary because subprocess proxying significantly increases the likelihood of various program processes calling each other, especially when the proxy service itself gets proxied. When protection triggers, the log will display `[LOOP GUARD]`.
+
+3. **Added "Allow Proxy Chain" toggle**: Only disable loopback prevention when the user explicitly needs multi-level proxying. By default, "Proxy Endpoint Loopback Prevention" is enabled (i.e., "Allow Proxy Chain" is off), automatically using direct connection when the target equals the proxy endpoint.
+
+4. **Added symbols to logs and rules**: A lightning bolt icon indicates subprocess proxying, and a double-arrow icon indicates parent process proxying.
+
+5. **Test version**: Stability is uncertain; feedback is welcome.
+
+---20260710
+
+
 1. Fixed the issue where deleting a proxy caused rule references to become misaligned. This bug has been submitted to the official tracker.  
 2. Ported over the traffic icon feature, traffic statistics, connection viewer, and "show only matched rule logs" feature that were added in the original 3.2.0.  
 3. Added a "Replace Proxy" function on the Proxy page: replaces all proxy-type rules in the ruleset with the selected proxy.  
