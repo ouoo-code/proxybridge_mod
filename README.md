@@ -4,7 +4,7 @@
 > *A modified version based on official ProxyBridge, offering enhanced GUI, subprocess proxying, loopguard, and bug fixes.*
 
 [RELEASE DOWNLOAD (v3.2.0 mod last version)](https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2)
-
+[RELEASE DOWNLOAD (v4.0 mod last version)](https://github.com/ouoo-code/proxybridge_mod/releases)
 ---
 
 ## 🌟 Mod v4 重大更新 | Mod v4 Major Upgrade (2026-08-08)
