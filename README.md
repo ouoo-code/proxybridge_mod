@@ -7,7 +7,7 @@
 [RELEASE DOWNLOAD (v3.2.0 mod last version)](https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2)  
 ---
 
-## 🌟 Mod v4 重大更新 | Mod v4 Major Upgrade (2026-08-08)
+## Mod v4 重大更新 | Mod v4 Major Upgrade (2026-08-08)
 
 ### 中文说明
 1. **代理子进程支持**：规则内允许配置为代理此规则的程序底下的所有子进程。
@@ -25,7 +25,7 @@
    | `↯` (闪电) | 子进程代理 (Subprocess Proxy) |
    | `↕` (双箭头) | 父进程代理 (Parent Process Proxy) |
 
-> ⚠️ **测试说明**：当前 Version 4 为测试版本，稳定性尚在验证中，欢迎提交 Issue 反馈问题。
+>  **测试说明**：当前 Version 4 为测试版本，稳定性尚在验证中，欢迎提交 Issue 反馈问题。
 
 ---
 
@@ -45,11 +45,11 @@
    | `↯` (Lightning) | Subprocess Proxying |
    | `↕` (Double Arrow) | Parent Process Proxying |
 
-> ⚠️ **Notice**: This v4 release is currently a testing build. Stability may vary—feedback and bug reports are welcome.
+>  **Notice**: This v4 release is currently a testing build. Stability may vary—feedback and bug reports are welcome.
 
 ---
 
-## 📅 更新日志与修复历史 | Changelog & Bug Fixes
+## 更新日志与修复历史 | Changelog & Bug Fixes
 
 ### 2026-07-10 Updates (Mod v4 Base)
 
@@ -105,7 +105,7 @@
 
 ---
 
-## 🖼️ 界面截图 | Screenshots
+## 界面截图 | Screenshots
 
 ### v4.0 GUI Mod
 
