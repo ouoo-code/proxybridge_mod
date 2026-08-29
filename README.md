@@ -7,7 +7,7 @@
 [RELEASE DOWNLOAD (v3.2.0 mod last version)](https://github.com/ouoo-code/proxybridge_mod/releases/tag/mod2)  
 ---
 
-## Mod v4 重大更新 | Mod v4 Major Upgrade (2026-08-08)
+## Mod v4 重大更新 | Mod v4 Major Upgrade (2026-08-29)
 
 ### 中文说明
 1. **代理子进程支持**：规则内允许配置为代理此规则的程序底下的所有子进程。
